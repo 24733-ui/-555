@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>เว็บสนุ๊กเกอร์</title>
+
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background: linear-gradient(to bottom, #004e92, #000428);
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffea00;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        h2 {
+            color: #00eaff;
+            border-left: 5px solid #00eaff;
+            padding-left: 10px;
+        }
+
+        /* กล่องเนื้อหา */
+        .box {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* สีลูกสนุ๊กเกอร์ */
+        .ball-list li {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .ball {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .red { background: red; }
+        .yellow { background: gold; }
+        .green { background: green; }
+        .brown { background: saddlebrown; }
+        .blue { background: blue; }
+        .pink { background: hotpink; }
+        .black { background: black; }
+    </style>
+
+</head>
+<body>
+
+    <h1> เว็บสนุ๊กเกอร์ฉบับมือใหม่ </h1>
+
+    <div class="box">
+        <h2>ข้อมูลกติกาพื้นฐาน</h2>
+        <p>
+            สนุ๊กเกอร์เป็นกีฬาที่ใช้ไม้คิวแทงลูกลงหลุมเพื่อเก็บคะแนน 
+            ลูกแต่ละสีจะมีคะแนนไม่เท่ากัน ถ้าต้องการเล่นให้เก่งต้องเน้นความแม่นและการวางแผน
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>คะแนนของลูกแต่ละสี</h2>
+        <ul class="ball-list">
+            <li><span class="ball red"></span> แดง = 1 คะแนน</li>
+            <li><span class="ball yellow"></span> เหลือง = 2 คะแนน</li>
+            <li><span class="ball green"></span> เขียว = 3 คะแนน</li>
+            <li><span class="ball brown"></span> น้ำตาล = 4 คะแนน</li>
+            <li><span class="ball blue"></span> น้ำเงิน = 5 คะแนน</li>
+            <li><span class="ball pink"></span> ชมพู = 6 คะแนน</li>
+            <li><span class="ball black"></span> ดำ = 7 คะแนน</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>ผู้เล่นยอดนิยม</h2>
+        <ul>
+            <li>รอนนี โอซุลลิแวน</li>
+            <li>จอห์น ฮิกกินส์</li>
+            <li>จัดด์ ทรัมป์</li>
+        </ul>
+    </div>
+
+</body>
+</html>
